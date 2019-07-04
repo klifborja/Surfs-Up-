@@ -36,7 +36,7 @@ def welcome():
 		f"Aloha and welcome to the Surf's Up API!<br>"
 		f"Available Routes:<br>"
 		f"/api/v1.0/precipitation<br>"
-        f"/api/v1.0/temperature"
+        f"/api/v1.0/temperature<br>"
 		f"/api/v1.0/stations<br>"
 		f"/api/v1.0/tobs<br>"
 		f"/api/v1.0/<start><br>"
@@ -105,7 +105,7 @@ def start(start_date=None):
 
     
 
-@app.route("/api/v1.0/datesearch/<start/<end>")
+@app.route("/api/v1.0/<start/<end>")
 def start_end(start, end):
     
 # Query
