@@ -59,11 +59,11 @@ Designed a Flask API based on the developed queries using FLASK to create the ro
 * Used the `calc_temps` function to calculate the min, avg, and max temperatures for matching dates from the previous year (i.e., use "2017-01-01" if start date was "2018-01-01").
 * Ploted the min, avg, and max temperature from your previous query as a bar chart.
 
-  * Use the average temperature as the bar height.
+  * Average temperature = bar height.
 
-  * Use the peak-to-peak (tmax-tmin) value as the y error bar (yerr).
+  * Peak-to-peak (tmax-tmin) value = y error bar (yerr).
 
-    ![temperature](Images/temperature.png)
+    ![temperature](Static/Images/temperature.png)
 
 ### Daily Rainfall Average.
 
