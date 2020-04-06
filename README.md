@@ -56,7 +56,6 @@ Designed a Flask API based on the developed queries using FLASK to create the ro
 
 ### Temperature Analysis
 
-* The starter notebook contains a function called `calc_temps` that will accept a start date and end date in the format `%Y-%m-%d` and return the minimum, average, and maximum temperatures for that range of dates.
 * Used the `calc_temps` function to calculate the min, avg, and max temperatures for matching dates from the previous year (i.e., use "2017-01-01" if start date was "2018-01-01").
 * Ploted the min, avg, and max temperature from your previous query as a bar chart.
 
