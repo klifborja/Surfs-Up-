@@ -1,6 +1,6 @@
 # Surfs-Up!
 
-![surfs-up.jpeg](Images/surfs-up.png)
+![surfs-up.jpeg](Static/Images/surfs-up.png)
 
 Looking to take that long-deserved trip to Hawaii but don’t want the weather to get in your way? Surfs Up is able to analyze past weather patterns to help you plan your vacation around inclement weather. This app is a climate analysis tool that gives you a look at the precipitation frequency, average rainfall, and average temperature by date and location. 
 
@@ -11,7 +11,7 @@ Hawaii Climate Database exploration with Python and SQLAlchemy. Analysis complet
 
 * Designed a query to retrieve the last 12 months of precipitation data using only the `date` and `prcp` values. Loaded the query results into a Pandas DataFrame and set the index to the date column and sorted the DataFrame values by `date` and ploted the results using the DataFrame `plot` method.
 
-![precipitation](Images/precipitation.png)
+![precipitation](Static/Images/precipitation.png)
 
 ### Station Analysis
 
@@ -19,7 +19,7 @@ Hawaii Climate Database exploration with Python and SQLAlchemy. Analysis complet
 
 * Design a query to retrieve the last 12 months of temperature observation data (tobs). Filtered by the station with the highest number of observations and plotted the results as a histogram with `bins=12`.
 
-    ![station-histogram](Images/station-histogram.png)
+    ![station-histogram](Static/Images/station-histogram.png)
 
 ## Climate App
 
