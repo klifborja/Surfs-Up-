@@ -53,3 +53,25 @@ Designed a Flask API based on the developed queries using FLASK to create the ro
   * Start and the end date, calculates the `TMIN`, `TAVG`, and `TMAX` for dates between the start and end date inclusive.
   * Joined the station and measurement tables for some of the analysis queries.
   * Useed Flask `jsonify` to convert the API data into a valid JSON response object.
+
+### Temperature Analysis
+
+* The starter notebook contains a function called `calc_temps` that will accept a start date and end date in the format `%Y-%m-%d` and return the minimum, average, and maximum temperatures for that range of dates.
+* Used the `calc_temps` function to calculate the min, avg, and max temperatures for matching dates from the previous year (i.e., use "2017-01-01" if start date was "2018-01-01").
+* Ploted the min, avg, and max temperature from your previous query as a bar chart.
+
+  * Use the average temperature as the bar height.
+
+  * Use the peak-to-peak (tmax-tmin) value as the y error bar (yerr).
+
+    ![temperature](Images/temperature.png)
+
+### Daily Rainfall Average.
+
+* Calculated the rainfall per weather station using the previous year's matching dates.
+* Calculated the daily normals. Normals are the averages for the min, avg, and max temperatures.
+* Created a list of dates in the format `%m-%d`. Used the `daily_normals` function to calculate the normals for each date string and append the results to a list.
+* Loaded the list of daily normals into a Pandas DataFrame and set the index equal to the date.
+* Used Pandas to plot an area plot (`stacked=False`) for the daily normals.
+
+  ![daily-normals](Static/Images/daily-normals.png)
